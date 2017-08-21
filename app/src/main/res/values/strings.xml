@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Medicine Reminder</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="string_enter_name">Enter your name</string>
+    <string name="string_choose_username">Choose your username</string>
+    <string name="string_choose_password">Choose your password</string>
+    <string name="string_enter_email">Enter your email</string>
+    <string name="button_register">Register</string>
+    <string name="goLoginPage">To Login Area</string>
+    <string name="medicine">Medicine</string>
+    <string name="myinfo">My Info</string>
+    <string name="askpharmacist">Ask Pharmacist</string>
+    <string name="pillreminder">Reminder</string>
+    <string name="buttonHelp">Help and Services</string>
+    <string name="help">No 38 JALAN MEDAN PERWIRA 2, MEDAN PERWIRA, 34600 KAMUNTING, TAIPING</string>
+    <string name="contact">No Tel: 05-8073667</string>
+    <string name="fb">Facebook: FARMASI MEDINA</string>
+
+</resources>

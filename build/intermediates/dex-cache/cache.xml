@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\c7b753f8b60dccb255a6d5a0b48940f8025f64d6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ec9104b53aee77dfcfd2fe1c4add23ff7c4df55f">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_5929b3893b0c35b3e1774686ceed666e7e2904c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Development\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_c14fa97ab2a51c535ee7a3b7505bf375cb0dad2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\9c6576b1766994c61c190d11c0c99bf788e9a0e1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_76bc166367ef75f2f2a9ecc8313377bc36a02dc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\e8fc85a759683a4e9cfdd80efd7ba24813566e87\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_46d804c4a464097ce3daa2ec05b2042512468401.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\831e123a7b407ab16ffbe1ca372ff7600e96f8e8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_0ec36dd16310a196f218a18ef0f330f532e76a43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\6c4808a78ec2b2430b9c18943063664522200061\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_2c1cf8212d77ec77b2e3bf63c7bd240db3e8a32d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\512e337792d9e1fd673f92fa8af081b7a20ca769\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_7230f5fedb5b561feaceacb7ddeadba1273b525e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\7ca635c6dfcad49b3e9e13c83eccf00664cf4b0b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="16226703bab55ec42457666213cd3503799d36a8">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_5d66ed9c7535adf657da993fbda28b4926eddd6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\508a100eafd97076429b9b97ba8d1d74a531adb0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_3f88222cdca94b78b562fab45a126a092eba6955.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\cbd0ce0940c544d2f498879029e46a28f6b2c633\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_df28938f53e493b147920535dfec2be6fd13b045.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\f1cf16c0493d29e060b4478c06f6282f2bbf0455\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_f773817cff5bde0240282e9bd869e9d5082f8c3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\4ece377ac84c4a9e0d261cc8cb61c6f9564e41fc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_3a0d4a9713caa84f8c4d2e8e6e622c0b64210d81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\f6b16a039f8614d8adefdc5f7bcb12a00a9f0510\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_93c9a07223bfafa8a08da0ad511e3bb0ab9f7f15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\6960c24dd7808891edc453caef3fda22b52420dc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_8e8ae264aa3b98c1f029885c46eb2502b65c596b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Development\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_89dbd6b1f75ffc5d7618c46af84b21729c247b59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\8ccf01823c059fb977fc06093ff5d660867a79b2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf481b2af4d8f89935baf75972976b5681533176">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_c1e3441ad4c1507b0c4e3dcbae40612c160c14d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\d5881d4262f96d4d4053576998c6bf285cc887bf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_cdc385f746cf60f0d0ec3ac34b167197e8d81e54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Development\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_b80d555c964994aa2befcd4d71bd296286605c83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\08a8f0c1026ba3b0d051bcb3344e8578993d75b5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7fd91ec2730fdaa82906aad32a3f3d3e574bae56">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_2dd42374c87b4df019d66291875131696369b54c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\5488772b2227180c93491dab359738ecf08fa5d0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_2a055d9f668f69bf0fbf7780852316c15d3fe6c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\e8cc2ce73bd1d0e0eaf6ad528dafc9c0eb9a0384\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_6c089351fef3638fb5a598a81afc786035f6f1b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\9d0899f1dad40e9eadc23abc511dfb32bd4d3694\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_6c15e58b9640f8759c5abbcf20ae8bd01740ed93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\ac8d8ed0a2a1cc62895482f25d0b541e15a7cc6d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3c433e48557e476290f45fb6cb568d1a103c9978">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_d994607cef1210c2e768e4d4b9035bc546cffa8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\aa06f5d7f578a65b64e19fe86e033d8184be1d29\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_3a4cf1e05515189d9c6c296bb382c7b7aefffd62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\a73a285453f598bf5e30b9ead56277a850f66e6c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="42a3ae86dd3ae2876d3e95c2e6e104ae57a50a65">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_bb926e371a281cd165a5bfc05cbd01cb1e86a38e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\371bf5741b411cdcaddd38bbb4e400d35744cdc6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_1918da45ef93e8515d65c799b8a5963ebce11819.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\6676c57708545a963d35bc9ab682a8b21bb2e4dc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_1315f9bc437164e08ae4515c3b08a0d9ce930644.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\f4d336f02237df3a2689a5795d7864b41ddd10b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_18a03ab82ede3e20144bfcbd1faed0e503c24ef7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\30fe0c6dbe68b871555f7e1171089d42f6e2ea8f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="379a48c2da13ffb7ec7134f2c715663834357670">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_68e129eeef2f7a44209b15591bb3137e7c8c7fd9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\a84394fa2a393d97aeb3a1525329ece912a5e899\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_1353168590c01ee0ca9f792f563f93011fcca99d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\9bf9902558de365f987ca284487cd3d9ab4573fd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_9950b26bd11c1af59f7c62b3a680532571f61f50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\f1b3ce4dac720283cf0eafd0d7455be79ac166f2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_add9a8c864b88978a8c6390f9aca055c1708b337.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\8da1a9e70d3358d50e520a8eb284f8104ff46fe0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7058bce7e91ddb18e2e07b0b699019039b87e47b">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_09048628968ab57fc96c935b86483d5f81d83aef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Development\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_4f7fd516b5ad09e26f219d1c0e152d85697cba2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\5c781abaef1ca943d6bbfe61f640f38d8a76f218\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_09de06d85f4d6b22448ce23dc5d9f849901129a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\1b302bdd46dae7e6b8a55d3d6c49de1c8cf7de38\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_854525576601eac8127282b6d995f8e6a8cf50ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\30a31975ecf931408a66cc7335fdc61624df364b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_064bd2c79804ded22968b64f1837ed64360effde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\aca8bb592f5306f2a8dfabe3bf3e7d33b2c19103\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38c0f2d5be3c27ed0adf9aebe7b8e3aa0d78b9fb">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_dde8486a3d7c671e0ccb3e6fad44033d528401c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\9eca2fde5b330f12d9f4ca909cff202500f9cefc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_cc1d4ae063faa08024c5413a809dd8c401642ce1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\c4aad4ec2162f90e299c32d2c0028d7a05d3f995\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_bd14ed461bfb7990f1e84e421d714ecd9943909c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\380410964f201511d9fd841963e84fa93e839132\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_3fb8c9f1bd5a3a5083594499fd641e7a0e145642.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Development\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\glide-3.7.0_6f74f027b9bb2f461f274a0f23a8605a6c9e78c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Masso\.android\build-cache\89656e41b0b8d27c538793863addc2c6cb53c40c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="C:\Users\Masso\Desktop\Gitlab\AndroidFreelancer\MedicineReminder\app\build\intermediates\pre-dexed\debug\classes_b6bf9c2f5af09ac47360ac1c3e7eab3a57816fa6.jar" />
+    </item>
+
+</items>

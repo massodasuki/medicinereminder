@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ask_pharmachist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unifreelancer.masso.medicinereminder.AskPharmacist"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+
+
+        android:tint="@android:color/white"
+        app:backgroundTint="@color/authui_colorAccent"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/fab"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Message"
+            tools:ignore="HardcodedText" />
+    </android.support.design.widget.TextInputLayout>
+
+    <ListView
+        android:id="@+id/list_of_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="16dp"
+        android:layout_above="@+id/fab"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        ></ListView>
+
+
+
+</RelativeLayout>
