@@ -10,7 +10,6 @@ import android.media.MediaPlayer;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.util.Log;
-import android.widget.Toast;
 
 /**
  * Created by Masso on 8/22/2017.
@@ -22,6 +21,8 @@ public class RingtonePlayingService extends Service {
     boolean isRunning;
     int startId;
     private String state;
+    private String alertMeTitle;
+
 
     @Nullable
     @Override
@@ -37,15 +38,17 @@ public class RingtonePlayingService extends Service {
         state = intent.getStringExtra(AlarmReceiver.ALARM_RECEIVER);
         Log.i("Extra state get here ", "what is intent "+ state);
 
+        alertMeTitle = PillAlert.instance().getMydataToShare();
+
         assert state != null;
         switch (state) {
             case "alarm on":
 
-                Log.i("Extra state get here ", "what is intent 1"+ state);
+                Log.i("Line 1", "when intent is :"+ state);
                 startId = 1;
                 break;
             case "alarm off":
-                Log.i("Extra state get here ", "what is intent 2"+ state);
+                Log.i("Line 2", "when intent is :"+ state);
                 startId = 0;
                 break;
             default:
@@ -56,44 +59,44 @@ public class RingtonePlayingService extends Service {
         //if else statement
         if (!this.isRunning && startId == 1)
         {
-            Log.i("Extra state get here ", "what is intent 3"+ state);
+            Log.i("Line 3", "when intent is :"+ state);
             media_song = MediaPlayer.create(this, R.raw.victory);
-            Log.i("Extra state get here ", "what is intent "+ state);
+            Log.i("Line 4", "when intent is :"+ state);
 
             media_song.start();
-            Log.i("Extra state get here ", "what is intent 4"+ state);
+            Log.i("Line 5", "when intent is :"+ state);
 
             this.isRunning = true;
-            Log.i("Extra state get here ", "what is intent 5"+ state);
+            Log.i("Line 6", "when intent is :"+ state);
             this.startId = 0;
-            Log.i("Extra state get here ", "what is intent 6"+ state);
+            Log.i("Line 7", "when intent is :"+ state);
             NotificationManager notify_manager = (NotificationManager)
                     getSystemService(NOTIFICATION_SERVICE);
-            Log.i("Extra state get here ", "what is intent 7"+ state);
+            Log.i("Line 8", "when intent is :"+ state);
             Intent intent_alarm_activity = new Intent (this.getApplicationContext(), AlarmActivity.class);
-            Log.i("Extra state get here ", "what is intent 8"+ state);
+            Log.i("Line 9", "when intent is :"+ state);
             PendingIntent pendingIntent_alarm_activity = PendingIntent.getActivity(this, 0,
                     intent_alarm_activity, 0);
-            Log.i("Extra state get here ", "what is intent 9"+ state);
+            Log.i("Line 10", "when intent is :"+ state);
             Notification notification_popup = new Notification.Builder(this)
-                    .setContentTitle("An alarm is going off")
-                    .setContentText("Click Me")
+                    .setContentTitle("Time for :" + alertMeTitle)
+                    .setContentText("Click Me To Off Alarm")
                     .setContentIntent(pendingIntent_alarm_activity)
                     .setSmallIcon(R.drawable.ic_launcher)
                     .setAutoCancel(true)
                     .build();
-            Log.i("Extra state get here ", "what is intent 10"+ state);
+            Log.i("Line 11", "when intent is :"+ state);
             notify_manager.notify(0, notification_popup);
 
         }
         else if (this.isRunning && startId == 0)
         {
-            Log.i("Extra state get here ", "what is intent 11"+ state);
+            Log.i("Line 12", "when intent is :"+ state);
 
             media_song = MediaPlayer.create(this, R.raw.victory);
             media_song.stop();
             media_song.reset();
-            Log.i("Extra state get here ", "what is intent 12"+ state);
+            Log.i("Line 13", "when intent is :"+ state);
             this.isRunning = false;
             this.startId = 0;
 
@@ -102,23 +105,23 @@ public class RingtonePlayingService extends Service {
          else if (!this.isRunning && startId == 0)
         {
 
-            Log.i("Extra state get here ", "what is intent 13"+ state);
+            Log.i("Line 14", "when intent is :"+ state);
             this.isRunning = false;
             this.startId = 0;
-            Log.i("Extra state get here ", "what is intent 14"+ state);
+            Log.i("Line 15", "when intent is :"+ state);
         }
         else if (this.isRunning && startId == 1)
         {
             this.isRunning = true;
             this.startId = 1;
-            Log.i("Extra state get here ", "what is intent 15"+ state);
+            Log.i("Line 16", "when intent is :"+ state);
         }
         else {
 
             Log.e("Something"," happen");
         }
 
-        Log.i("Extra state get here ", "what is intent 16"+ state);
+        Log.i("Line 17", "when intent is :"+ state);
 
         return START_NOT_STICKY;
 
@@ -127,8 +130,8 @@ public class RingtonePlayingService extends Service {
     @Override
     public void onDestroy() {
         // Tell the user we stopped.
-        Log.i("Extra state get here ", "what is intent 17"+ state);
-        Toast.makeText(this,"on Destroy Called", Toast.LENGTH_SHORT).show();
+        Log.i("Line 18 onDestroy", "when intent is :"+ state);
+
     }
 
 

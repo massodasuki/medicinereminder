@@ -5,13 +5,28 @@ package com.unifreelancer.masso.medicinereminder;
  */
 
 public class PillAlert {
-    private String messagePill;
+    private static PillAlert _instance = null;
 
-    public String getMessagePill() {
-        return messagePill;
+    private PillAlert(){
+
     }
 
-    public void setMessagePill(String messagePill) {
-        this.messagePill = messagePill;
+    public static PillAlert instance(){
+
+        if (_instance == null){
+            _instance = new PillAlert();
+        }
+        return _instance;
+    }
+
+    private String mydataToShare = null;
+
+    public  void setMydataToShare(String mydataToShare)
+    {
+        this.mydataToShare = mydataToShare;
+    }
+
+    public String getMydataToShare() {
+        return mydataToShare;
     }
 }

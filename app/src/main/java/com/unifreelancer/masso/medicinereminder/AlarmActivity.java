@@ -21,6 +21,7 @@ public class AlarmActivity extends AppCompatActivity implements View.OnClickList
     EditText medicine;
     TextView update_text;
 
+
     public static final String ALARM_STATUS = "ALARM";
 
 
@@ -28,6 +29,8 @@ public class AlarmActivity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alarm);
+
+
 
         medicine = (EditText)findViewById(R.id.type_medicine);
 
@@ -74,6 +77,11 @@ public class AlarmActivity extends AppCompatActivity implements View.OnClickList
                 }
 
                 set_alarm_text("Alarm On :" + hour_string + ":" + minute_string);
+
+
+                String alert = medicine.getText().toString();
+                PillAlert.instance().setMydataToShare(alert);
+
 
                 pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, 0,
                         my_intent, PendingIntent.FLAG_UPDATE_CURRENT);

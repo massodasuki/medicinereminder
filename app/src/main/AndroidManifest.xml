@@ -30,7 +30,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".About" />
-        <activity android:name=".PillReminder" />
         <activity android:name=".HelpServices" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".UserProfile" />
