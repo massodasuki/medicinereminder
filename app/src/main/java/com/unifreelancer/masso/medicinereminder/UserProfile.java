@@ -69,9 +69,9 @@ public class UserProfile extends ActionBarActivity implements View.OnClickListen
 
         if(v == buttonAskPharma){
 
-            Intent intent = new Intent(getApplicationContext(), AskPharmacist.class);
+            //Intent intent = new Intent(getApplicationContext(), AskPharmacist.class);
 
-            startActivity(intent);
+            //startActivity(intent);
         }
 
         if(v == buttonHelp){
@@ -83,7 +83,7 @@ public class UserProfile extends ActionBarActivity implements View.OnClickListen
 
         if(v == buttonAlarm){
 
-            Intent intent = new Intent(getApplicationContext(), PillReminder.class);
+            Intent intent = new Intent(getApplicationContext(), AlarmActivity.class);
 
             startActivity(intent);
         }

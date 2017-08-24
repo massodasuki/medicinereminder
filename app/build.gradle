@@ -31,15 +31,10 @@ dependencies {
     //noinspection GradleCompatible
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support:design:25.3.1'
-
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:animated-vector-drawable:25.3.1'
     compile 'com.android.support:mediarouter-v7:25.3.1'
-    compile 'com.firebaseui:firebase-ui:0.6.2'
-
     testCompile 'junit:junit:4.12'
 }
 
-// ADD THIS AT THE BOTTOM
-apply plugin: 'com.google.gms.google-services'
 

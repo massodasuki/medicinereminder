@@ -22,18 +22,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-    <activity android:name=".MainActivity">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
-
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".About" />
         <activity android:name=".PillReminder" />
-        <activity android:name=".AskPharmacist" />
         <activity android:name=".HelpServices" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".UserProfile" />
@@ -41,6 +38,15 @@
         <activity android:name=".ViewAllMedicineActivity" />
         <activity android:name=".ViewMedicineActivity" />
         <activity android:name=".MyInfoActivity" />
+        <activity android:name=".AlarmActivity" />
+
+
+        <receiver android:name=".AlarmReceiver"/>
+
+        <service android:name=".RingtonePlayingService"
+            android:enabled="true">
+        </service>
+
     </application>
 
 </manifest>

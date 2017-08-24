@@ -10,19 +10,23 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
 
-    <ToggleButton
-        android:id="@+id/toggleButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:checked="false"
-        android:onClick="OnToggleClicked" />
 
     <EditText
         android:id="@+id/type_medicine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Type of medicine" />
+
+    <Button
+        android:id="@+id/alarmOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/alarmOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 
 </LinearLayout>
