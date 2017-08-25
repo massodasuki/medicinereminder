@@ -17,6 +17,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Objects;
 
 public class ViewAllMedicineActivity extends AppCompatActivity implements ListView.OnItemClickListener {
 
@@ -24,10 +25,17 @@ public class ViewAllMedicineActivity extends AppCompatActivity implements ListVi
 
     private String JSON_STRING;
 
+    private String username;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_all_medicine);
+
+        Intent intent = getIntent();
+        username = intent.getStringExtra(LoginActivity.USER_NAME);
+
+
         listView = (ListView) findViewById(R.id.listView);
         listView.setOnItemClickListener(this);
         getJSON();
@@ -95,10 +103,20 @@ public class ViewAllMedicineActivity extends AppCompatActivity implements ListVi
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Intent intent = new Intent(this, ViewMedicineActivity.class);
-        HashMap map =(HashMap)parent.getItemAtPosition(position);
-        String empId = map.get(ConfigCRUD.TAG_ID).toString();
-        intent.putExtra(ConfigCRUD.MED_ID,empId);
-        startActivity(intent);
+
+        if (Objects.equals(username, "admin")) {
+            Intent intent = new Intent(this, ViewMedicineActivity.class);
+            HashMap map = (HashMap) parent.getItemAtPosition(position);
+            String empId = map.get(ConfigCRUD.TAG_ID).toString();
+            intent.putExtra(ConfigCRUD.MED_ID, empId);
+            startActivity(intent);
+
+        }else {
+            Intent intent = new Intent(this, ViewAllMedicineActivity.class);
+            HashMap map = (HashMap) parent.getItemAtPosition(position);
+            String empId = map.get(ConfigCRUD.TAG_ID).toString();
+            intent.putExtra(ConfigCRUD.MED_ID, empId);
+            startActivity(intent);
+        }
     }
 }

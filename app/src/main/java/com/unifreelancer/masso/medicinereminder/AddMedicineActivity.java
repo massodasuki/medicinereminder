@@ -15,6 +15,8 @@ import java.util.HashMap;
 
 public class AddMedicineActivity extends AppCompatActivity implements View.OnClickListener{
 
+    public static final String USER_NAME = "USER_NAME";
+    private String username;
     //Defining views
     private EditText editTextName;
     private EditText editTextDesg;
@@ -28,6 +30,8 @@ public class AddMedicineActivity extends AppCompatActivity implements View.OnCli
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_medicine);
 
+        Intent intent = getIntent();
+        username = intent.getStringExtra(AdminProfile.USER_NAME);
 
         //Initializing views
         editTextName = (EditText) findViewById(R.id.editTextName);
@@ -40,6 +44,8 @@ public class AddMedicineActivity extends AppCompatActivity implements View.OnCli
         //Setting listeners to button
         buttonAdd.setOnClickListener(this);
         buttonView.setOnClickListener(this);
+
+
     }
 
 
@@ -93,7 +99,12 @@ public class AddMedicineActivity extends AppCompatActivity implements View.OnCli
         if(v == buttonAdd){
             addMedicine();
         } else if(v == buttonView){
-            startActivity(new Intent(this,ViewAllMedicineActivity.class));
+
+            //startActivity(new Intent(this,ViewAllMedicineActivity.class));
+
+            Intent intent = new Intent(getApplicationContext(), ViewAllMedicineActivity.class);
+            intent.putExtra(USER_NAME,username);
+            startActivity(intent);
         }
     }
 }

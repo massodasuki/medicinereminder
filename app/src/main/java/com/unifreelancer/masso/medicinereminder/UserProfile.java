@@ -10,6 +10,9 @@ import android.widget.TextView;
 
 public class UserProfile extends ActionBarActivity implements View.OnClickListener{
 
+
+
+
     private String username;
     private Button buttonAddMed;
     private Button buttonMyInfo;
@@ -56,7 +59,7 @@ public class UserProfile extends ActionBarActivity implements View.OnClickListen
     public void onClick(View v) {
         if(v == buttonAddMed){
 
-            Intent intent = new Intent(getApplicationContext(), AddMedicineActivity.class);
+            Intent intent = new Intent(getApplicationContext(), ViewAllMedicineActivity.class);
             startActivity(intent);
         }
 
@@ -69,9 +72,9 @@ public class UserProfile extends ActionBarActivity implements View.OnClickListen
 
         if(v == buttonAskPharma){
 
-            //Intent intent = new Intent(getApplicationContext(), AskPharmacist.class);
+            Intent intent = new Intent(getApplicationContext(), ChatClientServer.class);
 
-            //startActivity(intent);
+            startActivity(intent);
         }
 
         if(v == buttonHelp){

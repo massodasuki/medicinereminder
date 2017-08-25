@@ -1,35 +1,27 @@
 {
   "project_info": {
-    "project_number": "539056509392",
-    "firebase_url": "https://medicinepharmacist-e1bec.firebaseio.com",
-    "project_id": "medicinepharmacist-e1bec",
-    "storage_bucket": "medicinepharmacist-e1bec.appspot.com"
+    "project_number": "1024260918031",
+    "firebase_url": "https://pocket-medicine.firebaseio.com",
+    "project_id": "pocket-medicine",
+    "storage_bucket": "pocket-medicine.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:539056509392:android:4a6d976f7db3bf86",
+        "mobilesdk_app_id": "1:1024260918031:android:4a6d976f7db3bf86",
         "android_client_info": {
           "package_name": "com.unifreelancer.masso.medicinereminder"
         }
       },
       "oauth_client": [
         {
-          "client_id": "539056509392-r2othd3e12b62g94bqlibibfkhut9461.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.unifreelancer.masso.medicinereminder",
-            "certificate_hash": "994dac413f19dd645e2a88081dd80442bc195202"
-          }
-        },
-        {
-          "client_id": "539056509392-83qvcfc0fc4iov5o9dq37v76je5uq53f.apps.googleusercontent.com",
+          "client_id": "1024260918031-5d72f0bf32v8hnkialhepb6kgo2lruq9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBq-rcGRKvCHxfKSBgvZMggR6VY8J8dRQE"
+          "current_key": "AIzaSyCh3M19vycuIPIGU9k66O7XpurZFaHIH7c"
         }
       ],
       "services": {
@@ -37,13 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "539056509392-83qvcfc0fc4iov5o9dq37v76je5uq53f.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

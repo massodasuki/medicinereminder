@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Medicine Reminder</string>
+    <string name="app_name">Pocket Medicine</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -17,6 +17,7 @@
     <string name="medicine">Medicine</string>
     <string name="myinfo">My Info</string>
     <string name="askpharmacist">Ask Pharmacist</string>
+    <string name="chatpatient">Talk To Patient</string>
     <string name="pillreminder">Reminder</string>
     <string name="buttonHelp">Help and Services</string>
     <string name="help">No 38 JALAN MEDAN PERWIRA 2, MEDAN PERWIRA, 34600 KAMUNTING, TAIPING</string>

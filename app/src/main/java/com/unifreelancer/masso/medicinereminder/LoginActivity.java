@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import java.util.HashMap;
+import java.util.Objects;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -50,6 +51,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             ProgressDialog loading;
             @Override
             protected void onPreExecute() {
+
                 super.onPreExecute();
                 loading = ProgressDialog.show(LoginActivity.this,"Please Wait",null,true,true);
             }
@@ -59,9 +61,15 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 super.onPostExecute(s);
                 loading.dismiss();
                 if(s.equalsIgnoreCase("success")){
-                    Intent intent = new Intent(LoginActivity.this,UserProfile.class);
-                    intent.putExtra(USER_NAME,username);
-                    startActivity(intent);
+                        if (Objects.equals(username, "admin")){
+                            Intent intent = new Intent(LoginActivity.this, AdminProfile.class);
+                            intent.putExtra(USER_NAME, username);
+                            startActivity(intent);
+                        } else {
+                            Intent intent = new Intent(LoginActivity.this, UserProfile.class);
+                            intent.putExtra(USER_NAME, username);
+                            startActivity(intent);
+                        }
                 }else{
                     Toast.makeText(LoginActivity.this,s,Toast.LENGTH_LONG).show();
                 }
