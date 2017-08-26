@@ -70,7 +70,7 @@ public class AdminProfile extends AppCompatActivity implements View.OnClickListe
 
         if(v == buttonAskPharma){
 
-            Intent intent = new Intent(getApplicationContext(), ChatClientServer.class);
+            Intent intent = new Intent(getApplicationContext(), EmailActivity.class);
 
             startActivity(intent);
         }

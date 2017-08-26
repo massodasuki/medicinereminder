@@ -27,5 +27,6 @@
     <string name="btnOff">OFF</string>
     <string name="status">Status</string>
     <string name="type_of_medicine">Type of medicine</string>
+    <string name="email">Compose Email</string>
 
 </resources>

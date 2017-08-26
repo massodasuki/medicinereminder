@@ -72,7 +72,7 @@ public class UserProfile extends ActionBarActivity implements View.OnClickListen
 
         if(v == buttonAskPharma){
 
-            Intent intent = new Intent(getApplicationContext(), ChatClientServer.class);
+            Intent intent = new Intent(getApplicationContext(), EmailActivity.class);
 
             startActivity(intent);
         }
