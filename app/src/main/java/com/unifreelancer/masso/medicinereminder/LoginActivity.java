@@ -19,7 +19,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     public static final String PASSWORD = "PASSWORD";
 
+    /*Masso punya
     private static final String LOGIN_URL = "http://khamra.biz/login.php";
+    */
+    private static final String LOGIN_URL = "http://pocketmedicinee.com/login.php";
 
     private EditText editTextUserName;
     private EditText editTextPassword;

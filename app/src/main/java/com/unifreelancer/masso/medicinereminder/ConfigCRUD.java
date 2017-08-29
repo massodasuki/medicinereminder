@@ -6,7 +6,7 @@ package com.unifreelancer.masso.medicinereminder;
 
 public class ConfigCRUD {
 
-
+        /*Masso
         //Address of our scripts of the CRUD
         public static final String URL_ADD="http://khamra.biz/addMedic.php";
         public static final String URL_GET_ALL = "http://khamra.biz/getAllMed.php";
@@ -16,6 +16,18 @@ public class ConfigCRUD {
 
         //New
         public static final String URL_GET_USER_INFO = "http://khamra.biz/getUserInfo.php?username=";
+
+        */
+
+        //Address of our scripts of the CRUD
+        public static final String URL_ADD="http://pocketmedicinee.com/addMedic.php";
+        public static final String URL_GET_ALL = "http://pocketmedicinee.com/getAllMed.php";
+        public static final String URL_GET_EMP = "http://pocketmedicinee.com/getMed.php?id=";
+        public static final String URL_UPDATE_EMP = "http://pocketmedicinee.com/updateMed.php";
+        public static final String URL_DELETE_EMP = "http://pocketmedicinee.com/deleteMed.php?id=";
+
+        //New
+        public static final String URL_GET_USER_INFO = "http://pocketmedicinee.com/getUserInfo.php?username=";
 
 
         //Keys that will be used to send the request to php scripts

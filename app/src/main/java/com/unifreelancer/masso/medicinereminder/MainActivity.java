@@ -25,8 +25,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button buttonRegister;
 
     private Button goLogin;
-
+    /* Masso Punya
     private static final String REGISTER_URL = "http://khamra.biz/register.php";
+    */
+
+    private static final String REGISTER_URL = "http://pocketmedicinee.com/register.php";
 
 
     @Override

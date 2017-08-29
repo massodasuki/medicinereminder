@@ -14,6 +14,8 @@ public class EmailActivity extends AppCompatActivity {
 
     EditText email, addRec, subject, message;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +37,7 @@ public class EmailActivity extends AppCompatActivity {
         });
     }
 
-    protected void sendEmail() {
+    public void sendEmail() {
         Log.i("Send email", "");
         String em = email.getText().toString();
         String cc = addRec.getText().toString();

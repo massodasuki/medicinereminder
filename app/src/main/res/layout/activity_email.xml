@@ -11,9 +11,8 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:text="Email"
+        android:textColor="@android:color/darker_gray"
         android:textSize="18sp" />
 
     <EditText
@@ -21,7 +20,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="pharmacist@farmasimedina.com"
-        android:textColor="#b3b3b3"
         android:textSize="18sp" />
 
     <TextView
@@ -36,7 +34,6 @@
         android:id="@+id/inCC"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#989997"
         android:textSize="18sp" />
 
     <TextView
@@ -51,7 +48,6 @@
         android:id="@+id/inSubject"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#a3a3a3"
         android:textSize="18sp" />
 
     <TextView
@@ -66,7 +62,6 @@
         android:id="@+id/inMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#919191"
         android:textSize="18sp" />
 
     <Button
