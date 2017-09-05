@@ -53,10 +53,12 @@ public class ViewAllMedicineActivity extends AppCompatActivity implements ListVi
                 JSONObject jo = result.getJSONObject(i);
                 String id = jo.getString(ConfigCRUD.TAG_ID);
                 String name = jo.getString(ConfigCRUD.TAG_NAME);
+                String price = jo.getString(ConfigCRUD.TAG_PRICE);
 
                 HashMap<String,String> medicine = new HashMap<>();
                 medicine.put(ConfigCRUD.TAG_ID,id);
                 medicine.put(ConfigCRUD.TAG_NAME,name);
+                medicine.put(ConfigCRUD.TAG_PRICE,price);
                 list.add(medicine);
             }
 
@@ -66,8 +68,8 @@ public class ViewAllMedicineActivity extends AppCompatActivity implements ListVi
 
         ListAdapter adapter = new SimpleAdapter(
                 ViewAllMedicineActivity.this, list, R.layout.list_item,
-                new String[]{ConfigCRUD.TAG_ID,ConfigCRUD.TAG_NAME},
-                new int[]{R.id.id, R.id.name});
+                new String[]{ConfigCRUD.TAG_ID,ConfigCRUD.TAG_NAME, ConfigCRUD.TAG_PRICE},
+                new int[]{R.id.id, R.id.name, R.id.price});
 
         listView.setAdapter(adapter);
     }

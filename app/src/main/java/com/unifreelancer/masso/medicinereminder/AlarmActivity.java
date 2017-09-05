@@ -3,8 +3,10 @@ package com.unifreelancer.masso.medicinereminder;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -53,11 +55,33 @@ public class AlarmActivity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onClick(View v) {
 
-                calendar.set(Calendar.HOUR_OF_DAY, alarmTimePicker.getHour());
-                calendar.set(Calendar.MINUTE, alarmTimePicker.getMinute());
 
-                int hour = alarmTimePicker.getHour();
-                int minute = alarmTimePicker.getMinute();
+
+
+                int hour;
+                int minute;
+
+                int currentApiVersion = Build.VERSION.SDK_INT;
+                if (currentApiVersion > 23 ) {
+                    Log.i("VERSION API :", " "+ currentApiVersion);
+
+                    calendar.set(Calendar.HOUR_OF_DAY, alarmTimePicker.getHour());
+                    calendar.set(Calendar.MINUTE, alarmTimePicker.getMinute());
+
+                    hour = alarmTimePicker.getHour();
+                    minute = alarmTimePicker.getMinute();
+                }
+                   else {
+
+                    Log.i("VERSION API :", " "+ currentApiVersion);
+                    calendar.set(Calendar.HOUR_OF_DAY, alarmTimePicker.getCurrentHour());
+                    calendar.set(Calendar.MINUTE, alarmTimePicker.getCurrentMinute());
+
+                    hour = alarmTimePicker.getCurrentHour();
+                    minute = alarmTimePicker.getCurrentMinute();
+
+                }
+
 
                 String hour_string = String.valueOf(hour);
                 String minute_string = String.valueOf(minute);

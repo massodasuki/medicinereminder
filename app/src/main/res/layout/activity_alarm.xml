@@ -24,14 +24,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button"
-        android:background="@android:color/holo_blue_bright"/>
+        />
 
     <Button
         android:id="@+id/alarmOff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnOff"
-        android:background="@color/colorAccent"/>
+        />
 
     <TextView
         android:id="@+id/alarmStatus"

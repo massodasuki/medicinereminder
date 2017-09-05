@@ -19,7 +19,7 @@ public class RingtonePlayingService extends Service {
 
     MediaPlayer media_song;
     boolean isRunning;
-    int startId;
+    static int startId;
     private String state;
     private String alertMeTitle;
 
@@ -33,7 +33,7 @@ public class RingtonePlayingService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.i("LocalService", "Received start id " + startId + " : " + intent);
 
-        media_song = MediaPlayer.create(this, R.raw.victory);
+
 
         state = intent.getStringExtra(AlarmReceiver.ALARM_RECEIVER);
         Log.i("Extra state get here ", "what is intent "+ state);
@@ -52,6 +52,7 @@ public class RingtonePlayingService extends Service {
                 startId = 0;
                 break;
             default:
+                startId = 0;
                 break;
         }
 
@@ -93,7 +94,7 @@ public class RingtonePlayingService extends Service {
         {
             Log.i("Line 12", "when intent is :"+ state);
 
-            media_song = MediaPlayer.create(this, R.raw.victory);
+            //media_song = MediaPlayer.create(this, R.raw.victory);
             media_song.stop();
             media_song.reset();
             Log.i("Line 13", "when intent is :"+ state);
@@ -121,7 +122,7 @@ public class RingtonePlayingService extends Service {
             Log.e("Something"," happen");
         }
 
-        Log.i("Line 17", "when intent is :"+ state);
+        Log.i("Line 17", "when intent is :"+ startId + state);
 
         return START_NOT_STICKY;
 
@@ -131,6 +132,8 @@ public class RingtonePlayingService extends Service {
     public void onDestroy() {
         // Tell the user we stopped.
         Log.i("Line 18 onDestroy", "when intent is :"+ state);
+        super.onDestroy();
+        isRunning = false;
 
     }
 
